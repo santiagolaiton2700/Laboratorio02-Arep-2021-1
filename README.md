@@ -13,7 +13,8 @@
  ```
  Ejecutar el proyecto desde el metodo principal :
  ```
- $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.stat.main"
+ $ mvn exec:java -Dexec.mainClass="edu.escuelaing.arep.stat.SparkWebApp"
+
  ```
  Ejecutar las pruebas que fueron creadas para probar el programa :
  ```
