@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/calculadoraEstilo.css">
+    <script src="js/apiclient.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<div class ="calculadora" name="calculator">
+    <h3>Calculadora Estadistica</h3>
+    <p>Ingresar datos separados por comas</P>
+    <input id = "captura" type="textfield" name=\"data\" value="">
+    <br>
+    <input type="submit" value="Calcular" onClick="app.leerDatos()">
+    <br>
+    <br>
+    <div>
+        Promedio : <div id= "avg" style = "display: inline-block";>	</div>
+        <br>
+        Desviacion estandar : <div id= "stdv" style = "display: inline-block";>	</div>
+    </div>
+
+</div>
+</html>

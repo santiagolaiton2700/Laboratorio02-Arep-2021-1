@@ -93,4 +93,15 @@ public class Stat {
     public void anadirNumero(double numero){
         numeros.agregar(numero);
     }
+
+    public Lista leerCadena(String cadena){
+        numeros=new Lista();
+        String[] listacadena=cadena.replace("\"","").replace("]","").replace("[","").split(",");
+
+        for(int i=0 ;i<listacadena.length;i++){
+            double numero=Double.parseDouble(listacadena[i]);
+            numeros.agregar(numero);
+        }
+        return numeros;
+    }
 }
