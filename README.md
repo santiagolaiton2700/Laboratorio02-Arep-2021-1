@@ -44,6 +44,8 @@
    Muestra de la aplicación en ejecución : 
    ![](Recursos/Imgenes/Calculator.png)
    
+   [![CircleCI](https://circleci.com/gh/santiagolaiton2700/Laboratorio02-Arep-2021-1.svg?style=svg)](https://circleci.com/gh/santiagolaiton2700/Laboratorio02-Arep-2021-1)
+   
    ## Construido por:
    - Santiago Agustin Laiton Cubides
    - Santiago.laiton@mail.escuelaing.edu.co
